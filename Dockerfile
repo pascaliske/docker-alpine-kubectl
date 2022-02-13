@@ -14,7 +14,7 @@ RUN apk add --no-cache curl && \
     chmod +x kubectl
 
 # final image
-FROM scratch
+FROM alpine
 LABEL maintainer="info@pascaliske.dev"
 
 # copy binary files
