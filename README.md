@@ -4,6 +4,25 @@
 
 [![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/pascaliske/alpine-kubectl/latest?style=flat-square)](https://hub.docker.com/r/pascaliske/alpine-kubectl) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/pascaliske/alpine-kubectl/latest?style=flat-square)](https://hub.docker.com/r/pascaliske/alpine-kubectl) [![Docker Pulls](https://img.shields.io/docker/pulls/pascaliske/alpine-kubectl?style=flat-square)](https://hub.docker.com/r/pascaliske/alpine-kubectl) [![GitHub Tag](https://img.shields.io/github/v/tag/pascaliske/docker-alpine-kubectl?style=flat-square)](https://github.com/pascaliske/docker-alpine-kubectl) [![Build Status](https://img.shields.io/github/workflow/status/pascaliske/docker-alpine-kubectl/Image/master?label=build&style=flat-square)](https://github.com/pascaliske/docker-alpine-kubectl/actions) [![GitHub Last Commit](https://img.shields.io/github/last-commit/pascaliske/docker-alpine-kubectl?style=flat-square)](https://github.com/pascaliske/docker-alpine-kubectl) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT) [![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg?style=flat-square)](https://github.com/Naereen/badges)
 
+## Image
+
+| Registry   | Image                                                                                                                             |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Docker Hub | [`pascaliske/alpine-kubectl`](https://hub.docker.com/r/pascaliske/alpine-kubectl)                                           |
+| GitHub     | [`ghcr.io/pascaliske/alpine-kubectl`](https://github.com/pascaliske/docker-cloudflare-dyndns/pkgs/container/alpine-kubectl) |
+
+The following platforms are available for this image:
+
+```bash
+$ docker run --rm mplatform/mquery pascaliske/alpine-kubectl:latest
+Image: pascaliske/alpine-kubectl:latest
+ * Manifest List: Yes
+ * Supported platforms:
+   - linux/amd64
+   - linux/arm/v7
+   - linux/arm64
+```
+
 ## Usage
 
 To use this image pull it from one of the following registries:
