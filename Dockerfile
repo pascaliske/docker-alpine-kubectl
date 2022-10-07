@@ -10,7 +10,7 @@ ARG KUBERNETES_RELEASE=v1.23.3
 
 # install kubectl
 RUN apk add --no-cache curl && \
-    curl -fsSLO https://storage.googleapis.com/kubernetes-release/release/${KUBERNETES_RELEASE}/bin/linux/${TARGETARCH}/kubectl && \
+    curl -fsSLO "https://dl.k8s.io/release/${KUBERNETES_RELEASE}/bin/linux/${TARGETARCH}/kubectl" && \
     chmod +x kubectl
 
 # final image
