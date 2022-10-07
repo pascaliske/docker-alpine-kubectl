@@ -35,6 +35,16 @@ docker pull ghcr.io/pascaliske/alpine-kubectl
 docker pull pascaliske/alpine-kubectl
 ```
 
+Then you can simply run it using the following commands:
+
+```bash
+# github container registry
+docker run -it --rm ghcr.io/pascaliske/alpine-kubectl version
+
+# docker hub
+docker run -it --rm pascaliske/alpine-kubectl version
+```
+
 ## License
 
 [MIT](LICENSE.md) – © 2022 [Pascal Iske](https://pascaliske.dev)
