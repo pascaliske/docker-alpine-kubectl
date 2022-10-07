@@ -6,16 +6,16 @@
 
 ## Image
 
-| Registry   | Image                                                                                                                             |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| Docker Hub | [`pascaliske/alpine-kubectl`](https://hub.docker.com/r/pascaliske/alpine-kubectl)                                           |
+| Registry   | Image                                                                                                                       |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------- |
 | GitHub     | [`ghcr.io/pascaliske/alpine-kubectl`](https://github.com/pascaliske/docker-cloudflare-dyndns/pkgs/container/alpine-kubectl) |
+| Docker Hub | [`pascaliske/alpine-kubectl`](https://hub.docker.com/r/pascaliske/alpine-kubectl)                                           |
 
 The following platforms are available for this image:
 
 ```bash
-$ docker run --rm mplatform/mquery pascaliske/alpine-kubectl:latest
-Image: pascaliske/alpine-kubectl:latest
+$ docker run --rm mplatform/mquery ghcr.io/pascaliske/alpine-kubectl:latest
+Image: ghcr.io/pascaliske/alpine-kubectl:latest
  * Manifest List: Yes
  * Supported platforms:
    - linux/amd64
@@ -28,11 +28,11 @@ Image: pascaliske/alpine-kubectl:latest
 To use this image pull it from one of the following registries:
 
 ```bash
-# docker hub
-docker pull pascaliske/alpine-kubectl
-
 # github container registry
 docker pull ghcr.io/pascaliske/alpine-kubectl
+
+# docker hub
+docker pull pascaliske/alpine-kubectl
 ```
 
 ## License
