@@ -6,7 +6,7 @@ WORKDIR /bin
 # arguments
 ARG TARGETOS
 ARG TARGETARCH
-ARG KUBERNETES_RELEASE=v1.23.3
+ARG KUBERNETES_RELEASE=v1.24.1
 
 # install kubectl
 RUN apk add --no-cache curl && \
