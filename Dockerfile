@@ -1,5 +1,5 @@
 # builder image
-FROM --platform=${BUILDPLATFORM} alpine:3.23 AS builder
+FROM --platform=${BUILDPLATFORM} alpine:3.24.1 AS builder
 LABEL maintainer="info@pascaliske.dev"
 WORKDIR /bin
 
@@ -14,7 +14,7 @@ RUN apk add --no-cache curl && \
     chmod +x kubectl
 
 # final image
-FROM alpine:3.23
+FROM alpine:3.24.1
 LABEL maintainer="info@pascaliske.dev"
 
 # copy binary files
